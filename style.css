@@ -1,0 +1,39 @@
+/*
+Theme Name:	Responsive-child
+Description:	Responsive theme modified with per-page custom menus
+Template:	responsive
+*/
+
+@import url ../responsive/style.css
+
+
+/* =Top Menu
+-------------------------------------------------------------- */
+.top-menu {
+	float: right;
+	margin: 10px 0;
+	padding: 0;
+	background: red;
+	
+}
+
+.top-menu li {
+	display: inline;
+	list-style-type: none;
+	border: 2px solid red;
+}
+
+.top-menu li a {
+	border-left: 1px solid #cccccc;
+	color: #333333;
+	font-size: 13px;
+	padding: 0 4px 0 8px;
+}
+
+.top-menu > li:first-child > a {
+	border-left: none;
+}
+
+.top-menu li a:hover {
+	color: #333333;
+}
