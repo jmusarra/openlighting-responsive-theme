@@ -4,7 +4,9 @@ Description:	Responsive theme modified with per-page custom menus
 Template:	responsive
 */
 
-@import url ../responsive/style.css
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url ../responsive/style.css;
+
 
 
 /* =Top Menu
@@ -13,10 +15,8 @@ Template:	responsive
 	float: right;
 	margin: 10px 0;
 	padding: 0;
-	background: #efefef;
-        font-family: verdana, sans;
-	
-}
+  
+	}
 
 .top-menu li {
 	display: inline;
@@ -26,7 +26,9 @@ Template:	responsive
 .top-menu li a {
 	border-left: 1px solid #cccccc;
 	color: #333333;
+  font-family: Oswald, sans-serif;
 	font-size: 14px;
+	
 	padding: 0 4px 0 8px;
 }
 
@@ -36,4 +38,5 @@ Template:	responsive
 
 .top-menu li a:hover {
 	color: #333333;
+  text-decoration: underline;
 }
