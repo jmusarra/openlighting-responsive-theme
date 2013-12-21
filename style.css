@@ -9,18 +9,17 @@ Template:	responsive
 
 /* =Top Menu
 -------------------------------------------------------------- */
+
 .top-menu {
 	float: right;
 	margin: 10px 0;
 	padding: 0;
-	background: red;
 	
 }
 
 .top-menu li {
 	display: inline;
 	list-style-type: none;
-	border: 2px solid red;
 }
 
 .top-menu li a {
